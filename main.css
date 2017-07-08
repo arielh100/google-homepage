@@ -1,3 +1,57 @@
+body {
+  font-family: arial, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}
+
+
+li a {
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+
+.options {
+  margin-top: 9px;
+  opacity: .55;
+  background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+  background-position: -132px -38px;
+  background-size: 528px 68px;
+  display: inline-block;
+  outline: none;
+  vertical-align: middle;
+  border-radius: 2px;
+  box-sizing: border-box;
+  height: 30px;
+  width: 30px;
+}
+
+.options:hover {
+  opacity: 1
+}
+
+.nav{
+  font-size: 13px;
+
+}
+
+.nav:hover {
+  text-decoration: underline;
+}
+
+
 #logo {
   height: 233px;
   margin-top: 89px;
@@ -5,8 +59,9 @@
 
 .search {
   font: 16px arial,sans-serif;
-  line-height: 44px;
-  height: 34 !important;
+  line-height: 34px;
+
+
 }
 
 .search_border{
@@ -20,5 +75,5 @@
 
 }
 .submit {
-  margin-top: 10px
+  margin-top: 10px;
 }
