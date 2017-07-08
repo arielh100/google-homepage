@@ -5,28 +5,32 @@
   <head>
     <title>Google</title>
     <link href="main.css" rel="stylesheet">
-  </head>  
+  </head>
 
 
   <body>
-  <div class="main">
-    <div id="logo">
-      <img alt="Google" height="92" width="272" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-    </div>
-
-
-    <form action="#" method="POST" name="Search_Bar">
-
-      <div class="search">
-        <input type='text' name="Search">
+    <center>
+      <div id="logo">
+        <img alt="Google" height="92" width="272" src="Images/logo.png" style="padding-top:109px">
       </div>
 
-      <div class="submit">
-        <input type='submit' value="Google Search">
-        <input type='submit' value="I'm Feeling Lucky">
-      </div>
 
-    </form>
+      <form action="#" method="POST" name="Search_Bar">
+
+        <div class="search_border">
+          <input class="search" type='text' name="Search" aria-label="Search" aria-haspopup="off" title="Search"
+          style="border: none; padding: 0px; margin: 0px; height: auto; width: 100%;
+          background: url("data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw%3D%3D") transparent;    
+          position: absolute; z-index: 6; left: 0px; outline: none;">
+        </div>
+
+        <div class="submit">
+          <input type='submit' value="Google Search">
+          <input type='submit' value="I'm Feeling Lucky">
+        </div>
+
+      </form>
+    </center>
   </div>
 
   </body>

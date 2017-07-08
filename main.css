@@ -1,4 +1,24 @@
-.main {
-  position="center";
+#logo {
+  height: 233px;
+  margin-top: 89px;
+}
 
+.search {
+  font: 16px arial,sans-serif;
+  line-height: 44px;
+  height: 34 !important;
+}
+
+.search_border{
+  border-style: inset;
+  border-width: 1px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  height: 44px;
+  width: 484px;
+  box-shadow: 4px 4px 4px #888888;
+
+}
+.submit {
+  margin-top: 10px
 }
